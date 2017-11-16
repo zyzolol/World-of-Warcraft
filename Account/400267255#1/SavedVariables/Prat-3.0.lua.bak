@@ -1,0 +1,163 @@
+
+Prat3DB = {
+	["namespaces"] = {
+		["Prat_TellTarget"] = {
+		},
+		["Prat_AltNames"] = {
+		},
+		["Prat_PlayerNames"] = {
+		},
+		["Prat_Frames"] = {
+			["profiles"] = {
+				["Default"] = {
+					["initialized"] = true,
+					["maxchatheightdefault"] = 400,
+					["maxchatwidthdefault"] = 608,
+					["minchatwidthdefault"] = 296.000030517578,
+				},
+			},
+		},
+		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["localdefense"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["global_en"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+						["general"] = {
+							["r"] = 1,
+							["g"] = 0.752941250801086,
+							["b"] = 0.752941250801086,
+						},
+						["trade"] = {
+							["b"] = 0.752941250801086,
+							["g"] = 0.752941250801086,
+							["r"] = 1,
+						},
+					},
+				},
+			},
+		},
+		["Prat_Editbox"] = {
+		},
+		["Prat_Fading"] = {
+		},
+		["Prat_Font"] = {
+			["profiles"] = {
+				["Default"] = {
+					["size"] = {
+						["ChatFrame1"] = 14,
+					},
+				},
+			},
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_Scroll"] = {
+		},
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_Paragraph"] = {
+		},
+		["Prat_UrlCopy"] = {
+		},
+		["Prat_Alias"] = {
+		},
+		["Prat_OriginalButtons"] = {
+		},
+		["Prat_Sounds"] = {
+		},
+		["Prat_ChannelSticky"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_History"] = {
+		},
+		["Prat_PopupMessage"] = {
+		},
+		["Prat_CopyChat"] = {
+		},
+		["Prat_Timestamps"] = {
+		},
+		["Prat_Search"] = {
+		},
+		["Prat_Buttons"] = {
+		},
+		["Prat_ServerNames"] = {
+		},
+		["Prat_Bubbles"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Palyydn - Felsong"] = "Default",
+		["Amazingx - Felsong"] = "Default",
+		["Amazîng - Stormscale"] = "Default",
+		["Fredrik - Felsong"] = "Default",
+		["Adsasdd - Felsong"] = "Default",
+		["Amazingxx - Felsong"] = "Default",
+		["Beztmage - Monster - High 12x"] = "Default",
+		["Booztd - Felsong"] = "Default",
+		["Asddsaadasd - Felsong"] = "Default",
+		["Trialhpriest - Felsong"] = "Default",
+		["Discc - Felsong"] = "Default",
+		["Onlyhumanx - Felsong"] = "Default",
+		["Testdpriest - Felsong"] = "Default",
+		["Testshaman - Felsong"] = "Default",
+		["Gødlikè - Stormscale"] = "Default",
+		["Amàzíng - Stormscale"] = "Default",
+		["Amazingd - Felsong"] = "Default",
+		["Onlyhuman - Felsong"] = "Default",
+		["Predict - Felsong"] = "Default",
+		["Testlock - Felsong"] = "Default",
+		["Testetrrt - Felsong"] = "Default",
+		["Sdsdd - Felsong"] = "Default",
+		["Gøðlìkè - Outland"] = "Default",
+		["Hovdingen - Stormscale"] = "Default",
+		["Gøðlìke - Stormscale"] = "Default",
+		["Holyy - Felsong"] = "Default",
+		["Ismagikèr - Stormscale"] = "Default",
+		["Gøðlíké - Stormscale"] = "Default",
+		["Amæzing - Stormscale"] = "Default",
+		["Gøðlikè - Stormscale"] = "Default",
+		["Amaziing - Felsong"] = "Default",
+		["Eyho - Felsong"] = "Default",
+		["Testretpally - Felsong"] = "Default",
+		["Trialretri - Felsong"] = "Default",
+		["Boozt - Felsong"] = "Default",
+		["Testmonk - Felsong"] = "Default",
+		["Fredrika - Felsong"] = "Default",
+		["Hõvdingen - Stormscale"] = "Default",
+		["Booztx - Felsong"] = "Default",
+		["Amázìng - Stormscale"] = "Default",
+		["Testerd - Felsong"] = "Default",
+		["Amazingxd - Felsong"] = "Default",
+		["Testdhunter - Felsong"] = "Default",
+		["Gøðlíke - Stormscale"] = "Default",
+		["Ispyy - Felsong"] = "Default",
+		["Loladdinasd - Felsong"] = "Default",
+		["Gøðlíkè - Stormscale"] = "Default",
+		["Gøðlìké - Stormscale"] = "Default",
+		["Gøðlíké - Auchindoun"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["modules"] = {
+				["Alias"] = 2,
+				["AltNames"] = 2,
+				["Sounds"] = 2,
+				["Paragraph"] = 2,
+				["KeyBindings"] = 2,
+				["PopupMessage"] = 2,
+				["OriginalButtons"] = 2,
+				["ChatLog"] = 2,
+			},
+		},
+	},
+}

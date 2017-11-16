@@ -1,0 +1,234 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1510066494,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[14:40:24]|r|c00000000|r Bid accepted.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [1]
+			{
+				"|cff979797[14:40:25]|r|c00000000|r You won an auction for Medallion of the Legion", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [2]
+			{
+				"|cff979797[14:40:27]|r|c00000000|r Bid accepted.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [3]
+			{
+				"|cff979797[14:40:27]|r|c00000000|r You won an auction for Medallion of the Legion", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [4]
+			{
+				"|cff979797[14:40:30]|r|c00000000|r Bid accepted.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [5]
+			{
+				"|cff979797[14:40:30]|r|c00000000|r You won an auction for Medallion of the Legion", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [6]
+			{
+				"|cff979797[14:40:32]|r|c00000000|r Bid accepted.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [7]
+			{
+				"|cff979797[14:40:33]|r|c00000000|r You won an auction for Medallion of the Legion", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [8]
+			{
+				"|cff979797[14:40:35]|r|c00000000|r Bid accepted.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [9]
+			{
+				"|cff979797[14:40:35]|r|c00000000|r You won an auction for Medallion of the Legion", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [10]
+			{
+				"|cff979797[14:40:38]|r|c00000000|r Bid accepted.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [11]
+			{
+				"|cff979797[14:40:38]|r|c00000000|r You won an auction for Medallion of the Legion", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				1, -- [7]
+				2, -- [8]
+			}, -- [12]
+			{
+				"|cff979797[14:40:41]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Divinesaint-Stormscale:105:SAY|h|cfff48cbaDivinesaint|r|h|cffd8d8d8]|r: legs", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [13]
+			{
+				"|cff979797[14:40:41]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Maldark-Stormscale:106:SAY|h|cffc69b6dMaldark|r|h|cffd8d8d8]|r: okay some of it is", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				5, -- [8]
+			}, -- [14]
+			{
+				"|cff979797[14:40:42]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Divinesaint-Stormscale:107:SAY|h|cfff48cbaDivinesaint|r|h|cffd8d8d8]|r: boots", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [15]
+			{
+				"|cff979797[14:40:43]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Wintertusk-Stormscale:108:SAY|h|cffaad372Wintertusk|r|h|cffd8d8d8]|r: and ur head", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				6, -- [8]
+			}, -- [16]
+			{
+				"|cff979797[14:40:44]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Divinesaint-Stormscale:109:SAY|h|cfff48cbaDivinesaint|r|h|cffd8d8d8]|r: xD", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [17]
+			{
+				"|cff979797[14:40:45]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Divinesaint-Stormscale:112:SAY|h|cfff48cbaDivinesaint|r|h|cffd8d8d8]|r: lol", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [18]
+			{
+				"|cff979797[14:40:52]|r|c00000000|r [S] |cffd8d8d8[|r|Hplayer:Maldark-Stormscale:117:SAY|h|cffc69b6dMaldark|r|h|cffd8d8d8]|r: ye ye ye, I haven't updated it after i got new shoulders tho", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				5, -- [8]
+			}, -- [19]
+			{
+				"|cff979797[15:54:54]|r|c00000000|r [S] <Busy>|cffd8d8d8[|r|Hplayer:Lifuig-Stormscale:848:SAY|h|cffd8bc3f1|r:|cffc69b6dLifuig|r|h|cffd8d8d8]|r: ▲Helping with Honor Level today, low prices, fast farming on BG&Arena. ▲Come on our website▲WWW.SHADOWBOOST.COM▲or add us in Skype▲Support.ShadowBoost▲", -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				2, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [20]
+		},
+	},
+}

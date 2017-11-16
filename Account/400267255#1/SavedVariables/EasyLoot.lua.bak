@@ -1,0 +1,13 @@
+
+EasyLootSettings = {
+	["enabled"] = true,
+	["rarity"] = 1,
+	["group"] = true,
+	["master"] = true,
+	["dispy"] = 183.9999912464334,
+	["needbeforegreed"] = true,
+	["dispx"] = 482.6667133523555,
+	["roundrobin"] = true,
+	["quest"] = 1,
+	["freeforall"] = true,
+}

@@ -1,0 +1,33 @@
+
+TidyPlatesWidgetData = {
+	["UnitClass"] = {
+		["Barbazul"] = "MAGE",
+		["Soombodyxd"] = "WARLOCK",
+		["Beztmage"] = "MAGE",
+		["Eldesverge"] = "DEATHKNIGHT",
+		["Jackechan"] = "PALADIN",
+		["Haladin"] = "PALADIN",
+		["Yojichu"] = "WARRIOR",
+		["Umbreella"] = "MAGE",
+		["Kickbuutoski"] = "DRUID",
+		["Thomi"] = "ROGUE",
+	},
+	["CachedAuraDurations"] = {
+		[79057] = 3600,
+		[120] = 8,
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+		["Barbazul"] = "Chusadores",
+		["Soombodyxd"] = "Anti Social HC",
+		["Beztmage"] = "IS GODLIKE",
+		["Eldesverge"] = "Megadeath",
+		["Jackechan"] = "U N D I S P U T E D",
+		["Haladin"] = "French Authority",
+		["Yojichu"] = "DRUCKWELLE",
+		["Umbreella"] = "Los Vatos",
+		["Kickbuutoski"] = "La Taberna Old School",
+		["Thomi"] = "Los Vatos",
+	},
+}

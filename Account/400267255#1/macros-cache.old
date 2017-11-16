@@ -1,0 +1,590 @@
+VER 3 00000000000000CE "123" "INV_Misc_QuestionMark"
+/cast [spec:1] Poisoned Knife; [spec:3] 
+END
+VER 3 000000000000003E "1ARENA" "1120427"
+/focus [@arena1]
+END
+VER 3 000000000000003F "2ARENA" "1120426"
+/focus [@arena2]
+END
+VER 3 0000000000000005 "3ARENA" "1120425"
+/focus [@arena3]
+END
+VER 3 00000000000000A2 "Angelic Feather" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [mod:ctrl,@player] [@cursor] Angelic Feather;
+END
+VER 3 00000000000000AE "ArchAngel/Raptur" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast Archangel
+/cast Rapture
+/cast Dark Archangel
+END
+VER 3 0000000000000042 "Blind" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][] Blind
+/focus [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][]
+END
+VER 3 00000000000000C0 "Blizzard" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Blizzard;
+END
+VER 3 0000000000000043 "BURST ASSASSIN" "INV_Misc_QuestionMark"
+#showtooltip Envenom
+/startattack
+/use 10
+/use 13
+/use 14
+/cast [@target] Vendetta
+/cast [@target] Kingsbane(Artifact)
+END
+VER 3 000000000000009D "BURST DISC" "INV_Misc_QuestionMark"
+#showtooltip Light's Wrath(Artifact)
+/use 10
+/use 13
+/use 14
+/castsequence reset=3 Light's Wrath(Artifact), Shadowfiend, Mindbender, Purge the Wicked
+END
+VER 3 00000000000000BB "Burst FIRE" "INV_Misc_QuestionMark"
+#showtooltip Combustion
+/startattack
+/use 10
+/use 13
+/use 14
+/castsequence reset=40 Combustion, Phoenix's Flames(Artifact), Phoenix's Flames(Artifact), Phoenix's Flames(Artifact)
+END
+VER 3 00000000000000A8 "BURST SHADOW" "INV_Misc_QuestionMark"
+#showtooltip Void Torrent(Artifact)
+/use 10
+/use 13
+/use 14
+/cast Void Torrent(Artifact)
+END
+VER 3 0000000000000090 "Cancel Disp" "INV_Misc_QuestionMark"
+#showtooltip Dispersion
+/cancelaura Dispersion
+END
+VER 3 00000000000000BE "Cancel IceBlock" "INV_Misc_QuestionMark"
+#showtooltip Ice Block
+/cancelaura Ice Block
+END
+VER 3 00000000000000C3 "Chastice" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Holy Word: Chastise
+END
+VER 3 0000000000000044 "CheapShot" "132092"
+#showtooltip
+/cast [@target] Cheap Shot
+/stopattack
+END
+VER 3 0000000000000098 "Clarity of Will" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help,] [] Clarity of Will
+END
+VER 3 00000000000000C2 "CounterSpell" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][] Counterspell
+END
+VER 3 0000000000000046 "Dance" "134400"
+#showtooltip Shadow Dance
+/cast Shadow Blades
+/cast Shadow Dance
+END
+VER 3 000000000000007A "Defstep" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@party1] Shadowstep
+/cast [@party2] Shadowstep
+END
+VER 3 000000000000008D "Dispel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead] Purify Disease; [@mouseover,harm,nodead][harm,nodead] Dispel Magic; [@player] Purify Disease
+END
+VER 3 0000000000000096 "Dispel DISC" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover,help,nodead][help,nodead] Purify; [@mouseover,harm,nodead][harm,nodead] Dispel Magic; [@player] Purify
+END
+VER 3 000000000000008F "Dispersion" "INV_Misc_QuestionMark"
+#showtooltip Dispersion
+/stopcasting
+/cast Dispersion
+/cast Shroud of Arcane Echoes
+END
+VER 3 0000000000000047 "Envenom" "132287"
+#showtooltip Envenom
+/startattack
+/use 10
+/use 13
+/use 14
+/castsequence reset=1 Envenom, Marked for Death
+END
+VER 3 0000000000000048 "Eviscerate" "INV_Misc_QuestionMark"
+#showtooltip Eviscerate
+/startattack
+/use 10
+/use 13
+/use 14
+/castsequence reset=1 Eviscerate, Marked for Death
+END
+VER 3 000000000000004A "F+S+K" "132303"
+#showtooltip
+/cast [@focus] Shadowstep
+/cast [@focus] Kick
+END
+VER 3 000000000000009C "Fade" "INV_Misc_QuestionMark"
+#showtooltip Fade
+/cast Fade
+/cast Shroud of Arcane Echoes
+END
+VER 3 000000000000009E "Fear/Mind Bomb" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent: 3/1] Mind Bomb; 
+/cast [talents] Psychic Scream
+END
+VER 3 00000000000000BC "Flamestrike" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Flamestrike;
+END
+VER 3 0000000000000015 "FOCUS" "132092"
+#showtooltip
+/cast [@focus] Cheap Shot
+/stopattack
+END
+VER 3 0000000000000089 "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] !Mind Control
+END
+VER 3 000000000000004F "FOCUS" "132297"
+#showtooltip
+/cast [@focus] Garrote
+END
+VER 3 00000000000000B3 "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Spellsteal
+/cancelaura hand of sacrifice
+END
+VER 3 00000000000000B4 "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Polymorph(Sheep)
+END
+VER 3 00000000000000B7 "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Counterspell
+END
+VER 3 000000000000000F "FOCUS" "136175"
+#showtooltip
+/cast [@focus] Blind
+END
+VER 3 00000000000000B8 "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Living Bomb
+END
+VER 3 000000000000004B "FOCUS" "1303199"
+/focus [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] []
+END
+VER 3 000000000000004D "FOCUS" "132303"
+#showtooltip
+/cast [@focus] Shadowstep
+END
+VER 3 0000000000000050 "FOCUS" "132219"
+#showtooltip
+/stopattack
+/cast [@focus] Kick
+END
+VER 3 0000000000000013 "FOCUS" "132310"
+#showtooltip
+/stopattack
+/cast [@focus] Sap
+/stopattack
+END
+VER 3 00000000000000C4 "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Holy Word: Chastise
+END
+VER 3 0000000000000014 "FOCUS" "132297"
+#showtooltip
+/cast [@focus] Garrote
+END
+VER 3 0000000000000052 "FOCUS" "132298"
+#showtooltip
+/stopattack
+/cast [@focus] Kidney Shot
+END
+VER 3 000000000000008C "FOCUS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Silence
+END
+VER 3 00000000000000A5 "FOCUS Troll" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@focus] Leap of Faith
+END
+VER 3 0000000000000017 "Garrote" "132297"
+#showtooltip
+/cast [@target] Garrote
+END
+VER 3 0000000000000055 "Goremaw" "134400"
+#showtooltip Goremaw's Bite(Artifact)
+/startattack
+/use 10
+/use 13
+/use 14
+/cast [@target] Vendetta
+/cast [@target] Goremaw's Bite(Artifact)
+END
+VER 3 00000000000000C6 "Guardian Spirit" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast [@target] Guardian Spirit
+END
+VER 3 0000000000000019 "Healthstone" "INV_Misc_QuestionMark"
+#showtooltip 
+/use Conjured Mana Bun
+/use Conjured Mana Pudding
+/use Healthstone
+/use "Third Wind" Potion
+/use Ancient Healing Potion
+/cast !Stealth
+END
+VER 3 000000000000001A "HoTs MACRO" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence [@mouseover, exists, help, nodead] [@target, exists, nodead, help, reset=combat/target] [] Lifebloom, Rejuvenation, Rejuvenation
+END
+VER 3 00000000000000B9 "Iceblock" "INV_Misc_QuestionMark"
+#showtooltip Ice Block
+/cast !Ice Block
+/run UIErrorsFrame:Hide()
+/cancelaura Hand of Sacrifice
+END
+VER 3 0000000000000078 "Innervate" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help] [] Innervate
+END
+VER 3 000000000000001B "Kick" "132219"
+#showtooltip Kick
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Kick
+END
+VER 3 000000000000005A "KidneyShot" "132298"
+#showtooltip
+/stopattack
+/cast [@target, exists, nodead, harm][] Kidney Shot
+/focus [@target, exists, nodead, harm][]
+END
+VER 3 00000000000000A4 "Leap of Troll" "463835"
+#showtooltip
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help,] [] Leap of Faith
+END
+VER 3 00000000000000A9 "Levitate" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help,] [] Levitate
+END
+VER 3 00000000000000BA "Living Bomb" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][] Living Bomb
+END
+VER 3 0000000000000088 "Mass Dispel" "INV_Misc_QuestionMark"
+#showtooltip
+/cast !Mass Dispel
+END
+VER 3 00000000000000C1 "Meteor" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@cursor] Meteor;
+END
+VER 3 0000000000000082 "Mind Blast" "INV_Misc_QuestionMark"
+#showtooltip Mind Blast
+/use 10
+/use 13
+/use 14
+/cast [nostance:1] Shadowform
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Mind Blast
+END
+VER 3 00000000000000A0 "Mind Bomb/Fear" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [talent: 3/1] Mind Bomb; [talent: 3/2] Psychic Voice; [talent: 3/3] Dominant Mind
+END
+VER 3 0000000000000093 "Mind Control" "136206"
+#showtooltip Mind Control
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] !Mind Control
+END
+VER 3 0000000000000081 "Mind Flay" "INV_Misc_QuestionMark"
+#showtooltip Mind Flay
+/startattack
+/cast [@target] !Mind Flay
+END
+VER 3 000000000000001F "Mutilate" "132304"
+#showtooltip Mutilate
+/startattack
+/cast Shadow Blades
+/cast [@target] Mutilate
+END
+VER 3 000000000000009A "Pain Supression" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast [@target] Pain Suppression
+END
+VER 3 000000000000007D "Party1" "1044494"
+/tar [@party1]
+END
+VER 3 000000000000007F "Party2" "1044493"
+/tar [@party2]
+END
+VER 3 0000000000000080 "Party3" "1044496"
+/tar [@party3]
+END
+VER 3 0000000000000094 "Penance" "INV_Misc_QuestionMark"
+#showtooltip Penance
+/use 10
+/use 13
+/use 14
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help,] [] Penance
+END
+VER 3 00000000000000A6 "Power Wd:Barrier" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Barrier
+/use 10
+/use 13
+/use 14
+#showtooltip
+/cast [@cursor] Power Word: Barrier;
+END
+VER 3 000000000000009F "Purge of the Wkd" "INV_Misc_QuestionMark"
+#showtooltip Purge the Wicked
+/cast [harm,nodead][@targettarget,harm,nodead][@targettargettarget,harm,nodead][@targettargettargettarget,harm,nodead][@targettargettargettargettarget,harm,nodead] Purge the Wicked
+END
+VER 3 000000000000005F "PVE BURST" "1259291"
+#showtooltip Fangs of the Devourer
+/startattack
+/use 10
+/use 13
+/use 14
+/use Draenic Agility Potion
+/use Potion of Prolonged Power
+/cast [@target] Vendetta
+/cast [@target] Kingsbane(Artifact)
+END
+VER 3 00000000000000CC "PVE SUB" "INV_Misc_QuestionMark"
+#showtooltip Goremaw's Bite(Artifact)
+/startattack
+/use 10
+/use 13
+/use 14
+/use Draenic Agility Potion
+/use Potion of Prolonged Power
+/cast [@target] Cold Blood
+/use Shadow Blades
+/use Symbols of Death
+/cast [@target] Goremaw's Bite(Artifact)
+END
+VER 3 0000000000000085 "PWS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help,] [] Power Word: Shield
+END
+VER 3 0000000000000021 "R/N" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [spec:1] Rupture; [spec:3] Nightblade;
+END
+VER 3 00000000000000AF "Radiance/Envag" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Radiance
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help,] [] Power Word: Radiance
+END
+VER 3 0000000000000062 "Regen" "1373904"
+#showtooltip
+/cast [@player] Crimson Vial
+/use Conjured Mana Bun
+/use Healthstone
+/cast !Shadowmeld(Racial)
+END
+VER 3 00000000000000BD "Ring of Frost" "INV_Misc_QuestionMark"
+#showtooltip
+/cast !Ring of Frost
+END
+VER 3 0000000000000063 "S-Sap" "132310"
+#showtooltip sap
+/cleartarget
+/targetenemyplayer
+/cast sap
+/focus [@target, exists, nodead, harm][]
+/stopattack
+END
+VER 3 0000000000000064 "Sap" "132310"
+#showtooltip
+/stopattack
+/cast [@target] Sap
+/focus [@target, exists, nodead, harm][]
+END
+VER 3 00000000000000CA "SELF" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@player] Prayer of Mending
+END
+VER 3 00000000000000C9 "SELF" "INV_Misc_QuestionMark"
+#showtooltip 
+/cast [@player] Holy Word: Serenity
+END
+VER 3 00000000000000C8 "SELF" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Renew
+END
+VER 3 0000000000000084 "SELF" "INV_Misc_QuestionMark"
+#showtooltip Power Word: Shield
+/cast [@player] Power Word: Shield
+END
+VER 3 00000000000000CB "SELF" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Prayer of Healing
+END
+VER 3 0000000000000087 "SELF" "INV_Misc_QuestionMark"
+#showtooltip Shadow Mend
+/cast [@player] Shadow Mend
+END
+VER 3 0000000000000097 "SELF" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Purify
+END
+VER 3 00000000000000C5 "SELF" "INV_Misc_QuestionMark"
+#showtooltip Guardian Spirit
+/stopcasting
+/castsequence reset=3 [@player] Guardian Spirit, Desperate Prayer
+END
+VER 3 000000000000009B "SELF" "INV_Misc_QuestionMark"
+#showtooltip Pain Suppression
+/stopcasting
+/cast [@player] Pain Suppression
+/use Potion of Defiance
+END
+VER 3 0000000000000091 "SELF" "INV_MISC_QUESTIONMARK"
+#showtooltip Penance
+/use 10
+/use 13
+/use 14
+/cast [@player] Penance
+END
+VER 3 00000000000000C7 "SELF" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Flash Heal
+END
+VER 3 0000000000000099 "SELF" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Clarity of Will
+END
+VER 3 000000000000008E "SELF" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@player] Purify Disease
+END
+VER 3 00000000000000A7 "Shackle Undead" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Shackle Undead
+END
+VER 3 0000000000000086 "Shadow Mend" "INV_Misc_QuestionMark"
+#showtooltip Shadow Mend
+/cast [@mouseover, exists, help, nodead] [@focus, exists, nodead, help] [] Shadow Mend
+END
+VER 3 00000000000000D0 "ShadowDance" "INV_Misc_QuestionMark"
+#showtooltip shadow dance
+/use shadow dance
+/use premeditation
+END
+VER 3 000000000000006A "Shadowmeld" "132089"
+/cast !Shadowmeld(Racial)
+END
+VER 3 000000000000006B "Shadowstep" "132303"
+#showtooltip Shadowstep
+/cast [@mouseover, exists, nodead] [@target, exists, nodead] [] Shadowstep
+END
+VER 3 00000000000000B5 "Sheep" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][] Polymorph(Sheep)
+/focus [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][]
+/petpassive
+END
+VER 3 00000000000000A1 "Shining/Fear" "INV_Misc_QuestionMark"
+#showtooltip
+/stopcasting
+/cast [talent: 3/1] Shining Force; 
+/cast [talents] Psychic Scream
+END
+VER 3 000000000000006C "Shroud" "635350"
+#showtooltip Shroud of Concealment
+/stopattack
+/cast !Shroud of Concealment
+END
+VER 3 00000000000000CF "Shuriken Toss" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [spec:1] Poisoned Knife; [spec:3] Shuriken Toss;
+END
+VER 3 000000000000008B "Silence" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Silence
+END
+VER 3 00000000000000BF "Slow Fall" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [@mouseover, exists, help, nodead] [@target, exists, nodead, help] [] Slow Fall;
+END
+VER 3 0000000000000095 "Smite" "INV_Misc_QuestionMark"
+#showtooltip Smite
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Smite
+END
+VER 3 00000000000000B2 "Spellsteal" "INV_Misc_QuestionMark"
+#showtooltip
+/use [@mouseover, exists, harm, nodead][@target, exists, nodead, harm][] Spellsteal
+/cancelaura hand of sacrifice
+END
+VER 3 00000000000000AC "Sprint" "INV_Misc_QuestionMark"
+#showtooltip
+/castsequence reset=50 Sprint,  6
+/use Free Action Potion
+END
+VER 3 000000000000006E "SS+BS" "INV_Misc_QuestionMark"
+#showtooltip
+/cast [bonusbar:1] Shadowstrike; Backstab
+/use Symbols of Death
+/startattack
+END
+VER 3 000000000000006F "Stealth" "132320"
+#showtooltip Stealth
+/stopattack
+/cast !Stealth
+/console targetNearestDistance 10.000000
+/targetenemy [noharm][dead]
+/console targetNearestDistance 41.000000
+/cast [harm,nodead] Sap 
+END
+VER 3 00000000000000AA "STOP!" "INV_Misc_QuestionMark"
+/stopcasting
+/stopattack
+END
+VER 3 0000000000000072 "ToT" "236283"
+#showtooltip Tricks of the Trade
+/cast [@cursor, exists, help, nodead] [@target, exists, nodead, help] [] Tricks of the Trade
+/cast [@party1] Tricks of the Trade
+/cast [@party2] Tricks of the Trade
+END
+VER 3 00000000000000B1 "Toxic Blade" "INV_Misc_QuestionMark"
+#showtooltip Toxic Blade
+/startattack
+/cast Shadow Blades
+/cast [@target] Toxic Blade
+END
+VER 3 0000000000000074 "Trinket" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Honorable Medallion(Honor Talent)
+END
+VER 3 0000000000000083 "Vampiric Touch" "INV_Misc_QuestionMark"
+#showtooltip Vampiric Touch
+/use 10
+/use 13
+/use 14
+/cast [nostance:1] Shadowform
+/cast [@mouseover, exists, harm, nodead] [@target, exists, nodead, harm] [] Vampiric Touch
+END
+VER 3 000000000000002D "Vanish" "132331"
+#showtooltip Vanish
+/cast !Vanish
+/stopattack
+#showtooltip sap
+/cleartarget
+/targetenemyplayer
+/cast sap
+/focus [@target]
+END
+VER 3 00000000000000AD "WOTF/Canabalize" "INV_Misc_QuestionMark"
+#showtooltip Cannibalize
+/cast !Cannibalize
+/cast !Stealth
+END

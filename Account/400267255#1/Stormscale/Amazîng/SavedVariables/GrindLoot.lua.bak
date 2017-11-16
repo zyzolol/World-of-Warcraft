@@ -1,0 +1,19 @@
+
+GrindLootOptions = {
+	["MiningMode"] = false,
+	["AutoConfirm"] = false,
+	["LootValuable"] = true,
+	["FishingMode"] = false,
+	["SkinningMode"] = false,
+	["IsCrap"] = {
+	},
+	["MinimumValue"] = 19999,
+	["CloseLootWindow"] = false,
+	["MinimumCloth"] = 5,
+	["Enabled"] = true,
+	["NotCrap"] = {
+		[28513] = 1,
+	},
+	["MinimumRarity"] = 2,
+	["NewBlip"] = false,
+}

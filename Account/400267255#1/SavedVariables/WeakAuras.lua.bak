@@ -1,0 +1,590 @@
+
+WeakAurasSaved = {
+	["dynamicIconCache"] = {
+		["Shadow Dance"] = {
+			[185422] = 236279,
+		},
+		["Voidform"] = {
+			[194249] = 1386550,
+		},
+	},
+	["displays"] = {
+		["Voidform"] = {
+			["user_y"] = 0,
+			["user_x"] = 0,
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+			["foregroundColor"] = {
+				0.329411764705882, -- [1]
+				0.109803921568627, -- [2]
+				0.556862745098039, -- [3]
+				1, -- [4]
+			},
+			["desaturateBackground"] = false,
+			["activeTriggerMode"] = -10,
+			["sameTexture"] = true,
+			["desaturateForeground"] = false,
+			["endAngle"] = 360,
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["names"] = {
+					"Voidform", -- [1]
+				},
+				["spellIds"] = {
+					194249, -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["stickyDuration"] = false,
+			["rotation"] = 0,
+			["font"] = "Friz Quadrata TT",
+			["version"] = 2,
+			["height"] = 200,
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["useAdjustededMax"] = false,
+			["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
+			["color"] = {
+			},
+			["foregroundTexture"] = "Interface\\Addons\\WeakAuras\\PowerAurasMedia\\Auras\\Aura18",
+			["untrigger"] = {
+			},
+			["crop_x"] = 0.41,
+			["mirror"] = false,
+			["useAdjustededMin"] = false,
+			["regionType"] = "progresstexture",
+			["orientation"] = "VERTICAL",
+			["blendMode"] = "BLEND",
+			["fontSize"] = 12,
+			["numTriggers"] = 1,
+			["init_completed"] = 1,
+			["disjunctive"] = "all",
+			["startAngle"] = 0,
+			["anchorFrameType"] = "SCREEN",
+			["alpha"] = 1,
+			["anchorPoint"] = "CENTER",
+			["compress"] = false,
+			["id"] = "Voidform",
+			["crop_y"] = 0.41,
+			["frameStrata"] = 1,
+			["width"] = 200,
+			["crop"] = 0.41,
+			["backgroundColor"] = {
+				0.0431372549019608, -- [1]
+				0.501960784313726, -- [2]
+				0, -- [3]
+				0.5, -- [4]
+			},
+			["inverse"] = false,
+			["animation"] = {
+				["start"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+					["type"] = "preset",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+			},
+			["init_started"] = 1,
+			["conditions"] = {
+				{
+					["check"] = {
+					},
+					["changes"] = {
+						{
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+				},
+			},
+			["backgroundOffset"] = 2,
+		},
+		["Shadowdance2"] = {
+			["init_started"] = 1,
+			["disjunctive"] = "all",
+			["xOffset"] = 100,
+			["yOffset"] = -30,
+			["mirror"] = true,
+			["untrigger"] = {
+			},
+			["regionType"] = "texture",
+			["rotate"] = true,
+			["blendMode"] = "BLEND",
+			["activeTriggerMode"] = -10,
+			["init_completed"] = 1,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+					["do_glow"] = false,
+				},
+				["init"] = {
+				},
+			},
+			["texture"] = "Textures\\SpellActivationOverlays\\Arcane_Missiles_3",
+			["animation"] = {
+				["start"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "alphaPulse",
+					["colorB"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = true,
+					["type"] = "none",
+					["duration"] = "",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["y"] = 0,
+					["x"] = 0,
+					["preset"] = "grow",
+					["rotate"] = 0,
+					["colorA"] = 1,
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["preset"] = "alphaPulse",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["preset"] = "fade",
+					["duration_type"] = "seconds",
+					["type"] = "preset",
+				},
+			},
+			["id"] = "Shadowdance2",
+			["anchorFrameType"] = "SCREEN",
+			["selfPoint"] = "CENTER",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["names"] = {
+					"Shadow Dance", -- [1]
+				},
+				["spellIds"] = {
+					185422, -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["discrete_rotation"] = 0,
+			["width"] = 165,
+			["numTriggers"] = 1,
+			["anchorPoint"] = "CENTER",
+			["height"] = 279.999847412109,
+			["conditions"] = {
+			},
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["color"] = {
+				0.658823529411765, -- [1]
+				0.517647058823529, -- [2]
+				1, -- [3]
+				0.529475510120392, -- [4]
+			},
+		},
+		["CC"] = {
+			["outline"] = "OUTLINE",
+			["fontSize"] = 20,
+			["disjunctive"] = "all",
+			["displayText"] = "",
+			["untrigger"] = {
+			},
+			["regionType"] = "text",
+			["init_started"] = 1,
+			["activeTriggerMode"] = -10,
+			["customTextUpdate"] = "update",
+			["color"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+			},
+			["actions"] = {
+				["start"] = {
+					["message_type"] = "SAY",
+					["message"] = "TEST ENDING %i",
+					["do_message"] = true,
+					["do_glow"] = false,
+				},
+				["init"] = {
+					["do_custom"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["selfPoint"] = "BOTTOM",
+			["id"] = "CC",
+			["justify"] = "CENTER",
+			["animation"] = {
+				["start"] = {
+					["preset"] = "fade",
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+				},
+				["main"] = {
+					["type"] = "none",
+					["duration_type"] = "seconds",
+				},
+				["finish"] = {
+					["type"] = "preset",
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["spellId"] = 2094,
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "multi",
+				["use_unit"] = true,
+				["spellIds"] = {
+					2094, -- [1]
+				},
+				["unevent"] = "auto",
+				["subeventPrefix"] = "SPELL",
+				["name"] = "Blind",
+				["names"] = {
+					"Blind", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+			},
+			["anchorFrameType"] = "SCREEN",
+			["frameStrata"] = 1,
+			["width"] = 4.99992990493774,
+			["yOffset"] = 150,
+			["font"] = "Friz Quadrata TT",
+			["numTriggers"] = 1,
+			["xOffset"] = 0,
+			["height"] = 0.999997496604919,
+			["conditions"] = {
+				{
+					["check"] = {
+						["trigger"] = 0,
+						["variable"] = "show",
+						["value"] = 0,
+					},
+					["changes"] = {
+						{
+							["value"] = {
+								["message"] = "ENDING 2 %i",
+							},
+							["property"] = "chat",
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["anchorPoint"] = "CENTER",
+		},
+		["Shadowdance1"] = {
+			["init_started"] = 1,
+			["disjunctive"] = "all",
+			["xOffset"] = -100,
+			["untrigger"] = {
+			},
+			["mirror"] = false,
+			["yOffset"] = -30,
+			["regionType"] = "texture",
+			["rotate"] = true,
+			["blendMode"] = "BLEND",
+			["activeTriggerMode"] = -10,
+			["init_completed"] = 1,
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+				},
+				["init"] = {
+				},
+				["finish"] = {
+					["do_glow"] = false,
+				},
+			},
+			["texture"] = "Textures\\SpellActivationOverlays\\Arcane_Missiles_3",
+			["selfPoint"] = "CENTER",
+			["id"] = "Shadowdance1",
+			["width"] = 165,
+			["animation"] = {
+				["start"] = {
+					["colorR"] = 1,
+					["scalex"] = 1,
+					["alphaType"] = "alphaPulse",
+					["colorB"] = 1,
+					["colorG"] = 1,
+					["alphaFunc"] = "function(progress, start, delta)\n      local angle = (progress * 2 * math.pi) - (math.pi / 2)\n      return start + (((math.sin(angle) + 1)/2) * delta)\n    end\n  ",
+					["use_alpha"] = true,
+					["type"] = "none",
+					["duration_type"] = "seconds",
+					["scaley"] = 1,
+					["alpha"] = 0,
+					["y"] = 0,
+					["x"] = 0,
+					["colorA"] = 1,
+					["rotate"] = 0,
+					["duration"] = "",
+					["preset"] = "grow",
+				},
+				["main"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "alphaPulse",
+					["type"] = "preset",
+				},
+				["finish"] = {
+					["duration_type"] = "seconds",
+					["preset"] = "fade",
+					["type"] = "preset",
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["names"] = {
+					"Shadow Dance", -- [1]
+				},
+				["spellIds"] = {
+					185422, -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["unit"] = "player",
+				["debuffType"] = "HELPFUL",
+			},
+			["discrete_rotation"] = 0,
+			["frameStrata"] = 1,
+			["desaturate"] = false,
+			["rotation"] = 0,
+			["anchorFrameType"] = "SCREEN",
+			["numTriggers"] = 1,
+			["anchorPoint"] = "CENTER",
+			["height"] = 279.999847412109,
+			["conditions"] = {
+			},
+			["load"] = {
+				["talent2"] = {
+					["multi"] = {
+					},
+				},
+				["talent"] = {
+					["multi"] = {
+					},
+				},
+				["spec"] = {
+					["multi"] = {
+					},
+				},
+				["difficulty"] = {
+					["multi"] = {
+					},
+				},
+				["race"] = {
+					["multi"] = {
+					},
+				},
+				["ingroup"] = {
+					["multi"] = {
+					},
+				},
+				["pvptalent"] = {
+					["multi"] = {
+					},
+				},
+				["class"] = {
+					["multi"] = {
+					},
+				},
+				["role"] = {
+					["multi"] = {
+					},
+				},
+				["faction"] = {
+					["multi"] = {
+					},
+				},
+				["size"] = {
+					["multi"] = {
+					},
+				},
+			},
+			["color"] = {
+				0.658823529411765, -- [1]
+				0.517647058823529, -- [2]
+				1, -- [3]
+				0.529475510120392, -- [4]
+			},
+		},
+	},
+	["login_squelch_time"] = 10,
+	["registered"] = {
+	},
+	["frame"] = {
+		["xOffset"] = -1066.89428710938,
+		["width"] = 630,
+		["height"] = 492,
+		["yOffset"] = -78.7196655273438,
+	},
+	["editor_theme"] = "Monokai",
+}

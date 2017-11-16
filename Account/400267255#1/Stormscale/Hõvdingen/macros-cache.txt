@@ -1,0 +1,68 @@
+VER 3 010000000000000B "ARENA1" "INV_MISC_QUESTIONMARK"
+/cast [@arena1] Fire Blast
+END
+VER 3 0100000000000005 "ARENA1" "INV_MISC_QUESTIONMARK"
+/cast [@arena1] Counterspell
+END
+VER 3 0100000000000008 "ARENA1" "INV_MISC_QUESTIONMARK"
+/cast [@arena1] Deep Freeze
+END
+VER 3 0100000000000002 "ARENA1" "INV_MISC_QUESTIONMARK"
+/cast [@arena1] Polymorph(Sheep)
+/petfollow
+END
+VER 3 010000000000000C "ARENA2" "INV_MISC_QUESTIONMARK"
+/cast [@arena2] Fire Blast
+END
+VER 3 0100000000000003 "ARENA2" "INV_MISC_QUESTIONMARK"
+/cast [@arena2] Polymorph(Sheep)
+/petfollow
+END
+VER 3 0100000000000009 "ARENA2" "INV_MISC_QUESTIONMARK"
+/cast [@arena2] Deep Freeze
+END
+VER 3 0100000000000006 "ARENA2" "INV_MISC_QUESTIONMARK"
+/cast [@arena2] Counterspell
+END
+VER 3 010000000000000A "ARENA3" "INV_MISC_QUESTIONMARK"
+/cast [@arena3] Deep Freeze
+END
+VER 3 0100000000000007 "ARENA3" "INV_MISC_QUESTIONMARK"
+/cast [@arena3] Counterspell
+END
+VER 3 0100000000000004 "ARENA3" "INV_MISC_QUESTIONMARK"
+/cast [@arena3] Polymorph(Sheep)
+/petfollow
+END
+VER 3 010000000000000D "ARENA3" "INV_MISC_QUESTIONMARK"
+/cast [@arena3] Fire Blast
+END
+VER 3 0100000000000013 "FOCUS" "INV_MISC_QUESTIONMARK"
+#showtooltip Fire Blast
+/cast [@focus] Fire Blast
+END
+VER 3 0100000000000014 "FOCUS" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Deep Freeze
+END
+VER 3 0100000000000015 "FOCUS" "INV_MISC_QUESTIONMARK"
+#showtooltip Counterspell
+/cast [@focus] Counterspell
+END
+VER 3 0100000000000016 "FOCUS" "INV_MISC_QUESTIONMARK"
+/cast [@focus] Polymorph(Sheep)
+/petfollow
+END
+VER 3 010000000000000E "ICEBLOCK/CANCEL" "INV_MISC_QUESTIONMARK"
+#showtooltip Ice Block
+/cast Ice Block
+/cast Ice Lance
+/run UIErrorsFrame:Hide()
+/dismount
+/cancelaura Invisibility
+/cancelaura Hand of Sacrifice
+/cancelaura Ice Block
+END
+VER 3 0100000000000017 "SHEEP" "INV_MISC_QUESTIONMARK"
+/use [@mouseover,harm,nodead][] Polymorph(Sheep)
+/petfollow
+END

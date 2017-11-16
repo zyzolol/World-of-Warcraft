@@ -1,0 +1,10 @@
+
+GladiatorlosSADB = {
+	["profileKeys"] = {
+		["Onlyhuman - Felsong"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

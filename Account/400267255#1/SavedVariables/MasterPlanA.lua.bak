@@ -1,0 +1,139 @@
+
+MasterPlanAG = {
+	["Stormscale"] = {
+		["Amæzing"] = {
+			["class"] = "DEMONHUNTER",
+			["faction"] = "Horde",
+		},
+		["Gøðlíke"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Horde",
+		},
+		["Amazîng"] = {
+			["class"] = "MAGE",
+			["faction"] = "Horde",
+		},
+		["Gøðlíkè"] = {
+			["class"] = "WARRIOR",
+			["faction"] = "Horde",
+		},
+		["Gøðlìké"] = {
+			["faction"] = "Horde",
+			["class"] = "HUNTER",
+		},
+		["Gøðlìke"] = {
+			["faction"] = "Horde",
+			["class"] = "DRUID",
+		},
+		["Gøðlikè"] = {
+			["faction"] = "Horde",
+			["class"] = "MONK",
+		},
+		["Gødlikè"] = {
+			["class"] = "WARLOCK",
+			["faction"] = "Horde",
+		},
+		["Gøðlíké"] = {
+			["faction"] = "Horde",
+			["class"] = "PRIEST",
+			["curRes"] = 5028,
+			["lastCacheTime"] = 1506864203,
+		},
+		["Ismagikèr"] = {
+			["faction"] = "Horde",
+			["class"] = "MAGE",
+		},
+	},
+	["Felsong"] = {
+		["Eyho"] = {
+			["faction"] = "Alliance",
+			["class"] = "DRUID",
+		},
+		["Trialretri"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+		["Boozt"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
+		["Testetrrt"] = {
+			["faction"] = "Horde",
+			["class"] = "PALADIN",
+		},
+		["Testretpally"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+		["Booztx"] = {
+			["class"] = "MAGE",
+			["faction"] = "Alliance",
+		},
+		["Testdhunter"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
+		},
+		["Amazingx"] = {
+			["class"] = "ROGUE",
+			["faction"] = "Alliance",
+		},
+		["Booztd"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
+		},
+		["Testlock"] = {
+			["faction"] = "Alliance",
+			["class"] = "WARLOCK",
+		},
+		["Fredrika"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEATHKNIGHT",
+		},
+		["Testmonk"] = {
+			["faction"] = "Alliance",
+			["class"] = "MONK",
+		},
+		["Amazingxx"] = {
+			["faction"] = "Horde",
+			["class"] = "MONK",
+		},
+		["Fredrik"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEATHKNIGHT",
+		},
+		["Testdpriest"] = {
+			["faction"] = "Alliance",
+			["class"] = "PRIEST",
+		},
+		["Amaziing"] = {
+			["faction"] = "Alliance",
+			["class"] = "PALADIN",
+		},
+		["Predict"] = {
+			["faction"] = "Alliance",
+			["class"] = "DEMONHUNTER",
+		},
+		["Trialhpriest"] = {
+			["class"] = "PRIEST",
+			["faction"] = "Alliance",
+		},
+		["Testshaman"] = {
+			["class"] = "SHAMAN",
+			["faction"] = "Neutral",
+		},
+		["Amazingd"] = {
+			["class"] = "DRUID",
+			["faction"] = "Alliance",
+		},
+		["Amazingxd"] = {
+			["class"] = "DRUID",
+			["faction"] = "Alliance",
+		},
+		["Ispyy"] = {
+			["faction"] = "Horde",
+			["class"] = "SHAMAN",
+		},
+	},
+	["IgnoreRewards"] = {
+	},
+}

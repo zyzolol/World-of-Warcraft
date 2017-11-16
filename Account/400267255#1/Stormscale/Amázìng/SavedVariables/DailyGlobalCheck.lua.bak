@@ -1,0 +1,25 @@
+
+DailyGlobalCheck_PluginData = {
+	["last_selected"] = "Legion Rare Mobs",
+	["Legion Rare Mobs"] = {
+		["folding"] = {
+		},
+		["active"] = true,
+		["options"] = {
+			true, -- [1]
+			false, -- [2]
+		},
+		["show_mapicons_worldmap"] = true,
+		["show_mapicons_minimap"] = true,
+		["last_mode"] = 1,
+		["page"] = 8,
+		["mapicons_pages"] = "1;1;1;1;1;1;1;1",
+	},
+	["Legion World Quests"] = {
+		["folding"] = {
+		},
+		["last_mode"] = 2,
+		["page"] = 1,
+		["active"] = true,
+	},
+}

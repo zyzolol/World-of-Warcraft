@@ -1,0 +1,14 @@
+
+OneBag3DB = {
+	["namespaces"] = {
+		["SimpleSort"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Beztmage - Monster - High 12x"] = "Beztmage - Monster - High 12x",
+	},
+	["profiles"] = {
+		["Beztmage - Monster - High 12x"] = {
+		},
+	},
+}

@@ -1,0 +1,10 @@
+
+DeathNoteDB = {
+	["profileKeys"] = {
+		["Boozt - Felsong"] = "Boozt - Felsong",
+	},
+	["profiles"] = {
+		["Boozt - Felsong"] = {
+		},
+	},
+}

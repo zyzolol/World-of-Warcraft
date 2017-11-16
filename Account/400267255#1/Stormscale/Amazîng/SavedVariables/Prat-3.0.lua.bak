@@ -1,0 +1,54 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1510757870,
+	["scrollback"] = {
+		["ChatFrame1"] = {
+			{
+				"|cff979797[15:57:47]|r|c00000000|r |cffe6cc80|Hitem:128820::137358:150997:143683::::110:63:16777472:9:1:730:893:1:3:3573:1562:3528:3:3573:1502:3528:3:3573:1577:3336|h[Felo'melorn]|h|r gains 1,720,500,600 Artifact Power.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [1]
+			{
+				"|cff979797[15:57:50]|r|c00000000|r |cffe6cc80|Hitem:128820::137358:150997:143683::::110:63:16777472:9:1:730:893:1:3:3573:1562:3528:3:3573:1502:3528:3:3573:1577:3336|h[Felo'melorn]|h|r gains 1,519,775,500 Artifact Power.", -- [1]
+				1, -- [2]
+				1, -- [3]
+				0, -- [4]
+				1, -- [5]
+				false, -- [6]
+				3, -- [7]
+				4, -- [8]
+			}, -- [2]
+		},
+	},
+}

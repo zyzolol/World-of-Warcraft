@@ -1,0 +1,75 @@
+
+DiminishingReturnsDB = {
+	["namespaces"] = {
+		["Blizzard"] = {
+			["profiles"] = {
+				["Hovdingen - Stormscale"] = {
+					["target"] = {
+					},
+					["party"] = {
+					},
+					["focus"] = {
+					},
+				},
+				["Gøðlíké - Stormscale"] = {
+					["target"] = {
+					},
+					["party"] = {
+					},
+					["focus"] = {
+					},
+				},
+				["Gøðlíke - Stormscale"] = {
+					["target"] = {
+					},
+					["party"] = {
+					},
+					["focus"] = {
+					},
+				},
+				["Amazîng - Stormscale"] = {
+					["target"] = {
+					},
+					["party"] = {
+					},
+					["focus"] = {
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["Blizzard_ArenaUI"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Hovdingen - Stormscale"] = "Hovdingen - Stormscale",
+		["Gøðlíké - Stormscale"] = "Gøðlíké - Stormscale",
+		["Gøðlíke - Stormscale"] = "Gøðlíke - Stormscale",
+		["Amazîng - Stormscale"] = "Amazîng - Stormscale",
+	},
+	["profiles"] = {
+		["Hovdingen - Stormscale"] = {
+		},
+		["Gøðlíké - Stormscale"] = {
+			["categories"] = {
+				["incapacitate"] = true,
+				["disorient"] = true,
+			},
+		},
+		["Gøðlíke - Stormscale"] = {
+			["categories"] = {
+				["stun"] = true,
+				["incapacitate"] = true,
+				["silence"] = true,
+				["disorient"] = true,
+			},
+		},
+		["Amazîng - Stormscale"] = {
+			["categories"] = {
+				["root"] = true,
+				["incapacitate"] = true,
+			},
+		},
+	},
+}
